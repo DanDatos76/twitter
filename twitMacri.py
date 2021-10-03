@@ -24,10 +24,10 @@ def create_table():
 create_table()
  
 #consumer key, consumer secret, access token, access secret.
-ckey="VXJgjUC7sKWZiSB8bEKrtrUNF"
-csecret="VF0SmSfHBJOG9Cq2vPE6fdqu3wEzo2pEwbBx1urewvDrbuMxAV"
-atoken="1442979107499806721-ZLSu5ZJEdGqdqHmg6JXhbqMgEatXN3"
-asecret="0xq2d38kxZ5ogm91R969zHnBrbijySuwpdy44cmY548SD"
+ckey="xxxxxxxxx"
+csecret="xxxxxxxxxxxxxxxx"
+atoken="xxxxxxxxxxxxxxxxxx"
+asecret="xxxxxxxxxxxxxxxxxxxxxx"
  
 class listener(StreamListener):
  
