@@ -10,10 +10,10 @@ import time
 analyzer = SentimentIntensityAnalyzer()
  
 #consumer key, consumer secret, access token, access secret.
-ckey="F2pIrutjymGr9vZuqTeViAymw"
-csecret="QFLTXwFJZNuR6i00IswAZIgaKsKl5AtmPufoSaRnR57ER2yVxS"
-atoken="879408865997201408-QJDeVNKYBsTdp97caK0qFV454YYwRLp"
-asecret="gLNfeVRjT7LrDaWWSgCX0ZRu6TeTPBquTxlYKQ4hUzAka"
+ckey="xxxxxxx"
+csecret="xxxxxxxxxxxxxxx"
+atoken="xxxxxxxxxxxxxxx"
+asecret="xxxxxxxxxxxxxxxx"
  
 conn = sqlite3.connect('twitter-Alberto.db')
 c = conn.cursor()
