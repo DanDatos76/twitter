@@ -1,0 +1,18 @@
+class MyStreamListener(tweepy.Stream):
+  def on_status(self, status):
+    if hasattr(status, "retweeted_status"):  # Check if Retweet
+        try:
+            print(status.retweeted_status.extended_tweet["full_text"])
+ACA NO SE QUE PONER PARA QUE CAD VEZ QUE LEE UN TWIT SE GUARDE, LO QUE ME HACE MEVA GUARDANDO EL NUEVO TWIT BORRANDO EL ANTERIOR
+            f = open('./prueba1.json', 'w', encoding='utf-8')
+            f.write(str([status.text]) + '\n')
+            f.close
+            
+            
+        except AttributeError:
+            print(status.retweeted_status.text)
+    else:
+        try:
+            print(status.extended_tweet["full_text"])
+        except AttributeError:
+            print(status.text)
