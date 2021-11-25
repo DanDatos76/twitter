@@ -26,10 +26,10 @@ import credentials
 analyzer = SentimentIntensityAnalyzer()
 
 
-consumer_key = "VXJgjUC7sKWZiSB8bEKrtrUNF"
-consumer_secret ="VF0SmSfHBJOG9Cq2vPE6fdqu3wEzo2pEwbBx1urewvDrbuMxAV"
-access_token ="1442979107499806721-ZLSu5ZJEdGqdqHmg6JXhbqMgEatXN3"
-access_token_secret ="0xq2d38kxZ5ogm91R969zHnBrbijySuwpdy44cmY548SD"
+consumer_key = ""
+consumer_secret =""
+access_token =""
+access_token_secret =""
 printer2 =(
   consumer_key, consumer_secret,
   access_token, access_token_secret
